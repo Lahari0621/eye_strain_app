@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-# ------------------ Dummy Model Functions ------------------
 def predict_random_forest(data):
     if data['Daily_Screen_Hours'] > 5 or data['Eye_Dryness_Level'] > 4:
         return "High"
@@ -18,7 +17,6 @@ def predict_svm(data):
     else:
         return "Low"
 
-# ------------------ Helper Functions ------------------
 def risk_color(risk):
     return {"High": "red", "Medium": "orange", "Low": "green"}[risk]
 
@@ -29,19 +27,14 @@ def explain_risk(risk):
         "Low": "Low risk. Keep following good eye care practices."
     }[risk]
 
-# ------------------ Streamlit Config ------------------
 st.set_page_config(page_title="👁️ Eye Strain Dashboard", layout="centered")
 
-# ------------------ Sidebar Navigation ------------------
 st.sidebar.title("📊 Dashboard")
 page = st.sidebar.radio(
     "Navigate",
     ["👁️ Eye Strain Prediction", "📈 Model Comparison Graph"]
 )
 
-# ======================================================
-# PAGE 1: EYE STRAIN PREDICTION
-# ======================================================
 if page == "👁️ Eye Strain Prediction":
 
     st.title("👁️ Eye Strain Prediction System")
@@ -100,9 +93,6 @@ if page == "👁️ Eye Strain Prediction":
         if st.button("Reset Inputs"):
             st.experimental_rerun()
 
-# ======================================================
-# PAGE 2: MODEL COMPARISON GRAPH
-# ======================================================
 elif page == "📈 Model Comparison Graph":
 
     st.title("📈 Model Accuracy Comparison")
