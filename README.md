@@ -43,4 +43,4 @@ The dashboard allows users to enter screen usage habits and predicts their eye s
 
 ## Author
 Sai Lahari
-B.Tech AIML Student
+
