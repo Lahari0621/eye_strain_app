@@ -1,5 +1,8 @@
 # 👁️ Eye Strain Prediction System
 
+## 🌍 Real-World Impact
+This project addresses the growing issue of digital eye strain among students and professionals. By providing early risk prediction, it helps users adopt healthier screen habits and prevent long-term vision problems.
+
 ##  Overview
 The Eye Strain Prediction System is a machine learning-based web application developed using Streamlit. It predicts the risk level of digital eye strain for students and professionals based on their screen usage habits and lifestyle factors.
 
@@ -48,9 +51,12 @@ cd eye_strain_app
 pip install -r requirements.txt
 streamlit run app.py
 ```
+## 📊 Output
+The application predicts the user's eye strain risk level based on input parameters and provides a comparison of model performance. It also visualizes accuracy to help understand model effectiveness.
+
 ## 📸 Screenshots
 ### 🖥️ Dashboard Interface
-<img width="1280" height="720" alt="Screenshot (206)" src="https://github.com/user-attachments/assets/d5d82f67-0c84-4cc8-b9f6-ad9fca52400e" /><br>
+![Dashboard]<img width="1280" height="720" alt="Screenshot (206)" src="https://github.com/user-attachments/assets/d5d82f67-0c84-4cc8-b9f6-ad9fca52400e" /><br>
 ### 📊 Prediction Result
 <img width="1920" height="1080" alt="Screenshot (207)" src="https://github.com/user-attachments/assets/1120226b-520c-4984-9566-27b7e7dee794" /><br>
 ### 📈 Model Comparison / Output Visualization
