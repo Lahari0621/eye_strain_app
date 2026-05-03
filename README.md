@@ -1,46 +1,56 @@
-#  Eye Strain Prediction System
+# 👁️ Eye Strain Prediction System
 
-This project is a Streamlit-based web application that predicts the risk level of digital eye strain for students and professionals.
+##  Overview
+The Eye Strain Prediction System is a machine learning-based web application developed using Streamlit. It predicts the risk level of digital eye strain for students and professionals based on their screen usage habits and lifestyle factors.
 
-The system compares predictions from Random Forest and Support Vector Machine (SVM) models and provides a final risk classification.
+With the increasing use of digital devices, eye strain has become a common issue. This application aims to provide early risk detection and promote healthier screen usage.
 
-## Features
-- Eye strain risk prediction
-- Interactive Streamlit dashboard
-- Random Forest and SVM comparison
-- Model accuracy visualization
+---
 
-## Technologies Used
+## Key Features
+- 🔍 Predicts eye strain risk (Low / Medium / High)
+- 🤖 Compares multiple ML models (Random Forest & SVM)
+- 📊 Displays model accuracy for better evaluation
+- 💻 Interactive and user-friendly Streamlit dashboard
+- 🧠 Data-driven insights based on user input
+
+---
+
+## 🛠️ Technologies Used
 - Python
 - Streamlit
 - Pandas
-- Machine Learning Concepts
+- Scikit-learn (Machine Learning Models)
 
-## Dataset
-digital_eye_strain_students_professionals.csv
+---
 
-## How to Run the Project
+## 📂 Dataset
+- **Name:** digital_eye_strain_students_professionals.csv  
+- Contains user data related to screen time, habits, and eye strain symptoms
 
-Clone the repository:
+---
 
+## ⚙️ How It Works
+1. User inputs screen usage details (hours, breaks, habits)
+2. Data is processed and fed into ML models
+3. Predictions are generated using:
+   - Random Forest
+   - Support Vector Machine (SVM)
+4. Final risk level is displayed with comparison insights
+
+---
+
+## ▶️ How to Run the Project
+
+```bash
 git clone https://github.com/Lahari0621/eye_strain_app.git
-
-Go to project folder:
-
 cd eye_strain_app
-
-Install dependencies:
-
 pip install -r requirements.txt
-
-Run the application:
-
 streamlit run app.py
+```
+## 📸 Screenshots
+<img width="1920" height="1080" alt="Screenshot (206)" src="https://github.com/user-attachments/assets/d5d82f67-0c84-4cc8-b9f6-ad9fca52400e" />
+<img width="1920" height="1080" alt="Screenshot (207)" src="https://github.com/user-attachments/assets/1120226b-520c-4984-9566-27b7e7dee794" />
+<img width="1920" height="1080" alt="Screenshot (208)" src="https://github.com/user-attachments/assets/c5356a29-0c92-4ddf-8ee2-5c5bc17eced6" />
 
-## Output
-
-The dashboard allows users to enter screen usage habits and predicts their eye strain risk level.
-
-## Author
-Sai Lahari
 
