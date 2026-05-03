@@ -49,8 +49,10 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 ## 📸 Screenshots
-<img width="1920" height="1080" alt="Screenshot (206)" src="https://github.com/user-attachments/assets/d5d82f67-0c84-4cc8-b9f6-ad9fca52400e" />
+<img width="1280" height="720" alt="Screenshot (206)" src="https://github.com/user-attachments/assets/d5d82f67-0c84-4cc8-b9f6-ad9fca52400e" />
+
 <img width="1920" height="1080" alt="Screenshot (207)" src="https://github.com/user-attachments/assets/1120226b-520c-4984-9566-27b7e7dee794" />
+
 <img width="1920" height="1080" alt="Screenshot (208)" src="https://github.com/user-attachments/assets/c5356a29-0c92-4ddf-8ee2-5c5bc17eced6" />
 
 
